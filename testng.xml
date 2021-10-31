@@ -11,5 +11,13 @@
 			<class name="MyRunner.Runner" />
 		</classes>
 	</test>
+	<test name="Eligibility Checker Test - Firefox" annotations="JDK"
+		preserve-order="true">
+		<parameter name="browser" value="Firefox"/>
+		
+		<classes>
+			<class name="MyRunner.Runner" />
+		</classes>
+	</test>
 
 </suite>

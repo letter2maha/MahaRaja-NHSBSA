@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="294029" started-at="2021-10-31T18:38:43 GMT" finished-at="2021-10-31T18:43:37 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@50b494a6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Eligibility Checker Test - Chrome" duration-ms="137251" started-at="2021-10-31T18:38:43 GMT" finished-at="2021-10-31T18:41:00 GMT">
+      <class name="MyRunner.Runner">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:MyRunner.Runner@50b494a6]" name="setUp" is-config="true" duration-ms="38" started-at="2021-10-31T18:38:43 GMT" finished-at="2021-10-31T18:38:43 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.Runner@50b494a6]" name="setUpClass" is-config="true" duration-ms="1963" started-at="2021-10-31T18:38:43 GMT" finished-at="2021-10-31T18:38:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@50b494a6]" name="runScenario" duration-ms="24338" started-at="2021-10-31T18:38:45 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:39:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - Free Dental check -"29-10-2003" (Age Range 18 to 25 and Above 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@50b494a6]" name="runScenario" duration-ms="12622" started-at="2021-10-31T18:39:10 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:39:22 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - Free Dental check -"29-10-1997" (Age Range 18 to 25 and Above 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@50b494a6]" name="runScenario" duration-ms="11228" started-at="2021-10-31T18:39:22 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:39:33 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - Free Dental check -"10-10-1961" (Age Range 18 to 25 and Above 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@50b494a6]" name="runScenario" duration-ms="40928" started-at="2021-10-31T18:39:33 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:40:14 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - No Free Dental check "10-10-1994" (Age Range 25 to 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@50b494a6]" name="runScenario" duration-ms="43805" started-at="2021-10-31T18:40:14 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:40:58 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - No Free Dental check "10-10-1962" (Age Range 25 to 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.Runner@50b494a6]" name="tearDownClass" is-config="true" duration-ms="2259" started-at="2021-10-31T18:40:58 GMT" finished-at="2021-10-31T18:41:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.Runner -->
+    </test> <!-- Eligibility Checker Test - Chrome -->
+    <test name="Eligibility Checker Test - Firefox" duration-ms="156745" started-at="2021-10-31T18:41:00 GMT" finished-at="2021-10-31T18:43:37 GMT">
+      <class name="MyRunner.Runner">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-31T18:41:00 GMT" finished-at="2021-10-31T18:41:00 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.Runner@2d6eabae]" name="setUpClass" is-config="true" duration-ms="34" started-at="2021-10-31T18:41:00 GMT" finished-at="2021-10-31T18:41:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="runScenario" duration-ms="21583" started-at="2021-10-31T18:41:00 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:41:22 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - Free Dental check -"29-10-2003" (Age Range 18 to 25 and Above 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="runScenario" duration-ms="18349" started-at="2021-10-31T18:41:22 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:41:40 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - Free Dental check -"29-10-1997" (Age Range 18 to 25 and Above 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="runScenario" duration-ms="17463" started-at="2021-10-31T18:41:40 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:41:58 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - Free Dental check -"10-10-1961" (Age Range 18 to 25 and Above 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="runScenario" duration-ms="50367" started-at="2021-10-31T18:41:58 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:42:48 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - No Free Dental check "10-10-1994" (Age Range 25 to 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:MyRunner.Runner@2d6eabae]" name="runScenario" duration-ms="47424" started-at="2021-10-31T18:42:48 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-10-31T18:43:36 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Wales Test Ticket - No Free Dental check "10-10-1962" (Age Range 25 to 60)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Eligibility Checker]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.Runner@2d6eabae]" name="tearDownClass" is-config="true" duration-ms="1519" started-at="2021-10-31T18:43:36 GMT" finished-at="2021-10-31T18:43:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.Runner -->
+    </test> <!-- Eligibility Checker Test - Firefox -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
